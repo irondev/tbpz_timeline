@@ -1,0 +1,35 @@
+.heading {
+    margin:0 auto;
+    color:$color-dark;
+    text-transform:uppercase;
+    font-family:'Roboto';
+    font-weight:900;
+    font-style:italic;
+    text-align:center;
+
+    &--1 {
+        font-size:22px;
+        @media (min-width:$bp-phablet) {
+            font-size:30px;
+        }
+        @media (min-width:$bp-tablet) {
+            font-size:36px;
+            max-width:80%;
+        }
+    }
+
+    &--2 {
+        font-size:16px;
+        @media (min-width:$bp-phablet) {
+            font-size:24px;
+        }
+        @media (min-width:$bp-tablet) {
+            font-size:28px;
+            max-width:80%;
+        }
+    }
+
+    &--3 {
+        font-size:16px;
+    }
+}

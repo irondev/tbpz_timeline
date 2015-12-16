@@ -1,0 +1,16 @@
+.date {
+    display:inline-block;
+    font-size:20px;
+    font-family:'Roboto';
+    font-weight:600;
+    font-style:italic;
+
+    &--formated {
+        word-spacing:30px;
+        text-transform:capitalize;
+
+        &:first-line {
+            font-size:1.4em;
+        }
+    }
+}

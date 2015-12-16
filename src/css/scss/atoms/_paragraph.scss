@@ -1,0 +1,18 @@
+.paragraph {
+    color:#000;
+    font-size:15px;
+    line-height:20px;
+    text-align:justify;
+    overflow:hidden;
+
+    &--oneline {
+        font-size: 18px;
+        font-style:italic;
+        text-align:center;
+    }
+
+    p {
+    	margin:0;
+    }
+
+}

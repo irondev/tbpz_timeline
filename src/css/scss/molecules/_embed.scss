@@ -1,0 +1,10 @@
+.embed {
+    width:100%;
+    overflow:hidden;
+
+    iframe {
+        border:none;
+        max-width:100%;
+        overflow:hidden;
+    }
+}

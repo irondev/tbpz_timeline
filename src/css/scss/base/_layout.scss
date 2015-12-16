@@ -1,0 +1,59 @@
+body {
+    overflow-y:scroll;
+    &:not(.is-ready) {
+        background:$color-white;
+    }
+    &.is-ready:not(.in-app) {
+        background:linear-gradient(to bottom, $color-light, $color-lighter);
+    }
+}
+
+.container {
+    transition:opacity 0.5s;
+    position:relative;
+    max-width:$width-container;
+    min-width:$bp-tablet;
+    margin:0 auto;
+    background:$color-white;
+    box-sizing:border-box;
+    padding:20px 0;
+    visibility:hidden;
+    opacity:0;
+
+    body.in-app & {
+        margin-top:0;
+        padding:0;
+        width:auto;
+        max-width:initial;
+        min-width:320px;
+    }
+
+    &:before,
+    &:after {
+        content:' ';
+        display:block;
+        width:10px;
+        height:100%;
+        position:absolute;
+        top:0;
+
+        body.in-app & {
+            display:none;
+        }
+    }
+
+    &:before {
+        left:0px;
+        box-shadow:-4px 0px 8px $color-light;
+    }
+    &:after {
+        right:0px;
+        box-shadow:4px 0px 8px $color-light;
+    }
+
+    body.is-ready & {
+        visibility:visible;
+        opacity:1;
+    }
+
+}

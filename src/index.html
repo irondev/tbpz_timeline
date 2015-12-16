@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!--#if expr="$QUERY_STRING = /timelineId=([^\&]+)/" -->
+    <!--#set var="timelineId" value="$1" -->
+    <!--#include virtual="/special/timeline/ssi/${timelineId}.ssi.html" -->
+<!--#endif -->
+<html lang="fr-FR" ng-app="app" ng-controller="TimelineCtrl">
+	<head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title><!--#echo encoding='none' var='title' --> - Timeline - The Backpackerz</title>
+        <meta name="description" content="<!--#echo encoding='none' var='description' -->">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:type" content="article" />
+        <meta property="og:locale" content="fr_FR" />
+        <meta property="og:site_name" content="The Backpackerz"/>
+        <meta property="og:title" content="<!--#echo encoding='none' var='title' -->" />
+        <meta property="og:url" content="<!--#echo encoding='none' var='url' -->" />
+        <meta property="og:description" content="<!--#echo encoding='none' var='description' -->" />
+        <meta property="og:image" content="<!--#echo encoding='none' var='image' -->" />
+        <meta property="article:publisher" content="https://www.facebook.com/TheBackPackerzOfficial" />
+        <meta property="article:author" content="https://www.facebook.com/TheBackPackerzOfficial" />
+        <meta name="twitter:site" content="@TheBackPackerz" />
+        <meta name="twitter:creator" content="@TheBackPackerz" />
+        <link rel="canonical" href="<!--#echo encoding='none' var'url' -->" />
+        <link rel="shortcut icon" type="image/x-icon" href="http://thebackpackerz.com/wp-content/uploads/2015/05/favicon-the-backpackerz-blog-hip-hop.gif" />
+		<!-- build:template
+		<link rel="stylesheet" type="text/css" href="<%=assetsPath%>css/style.min.css?<%=timestamp%>" />
+		<!--[if lte IE 8]>
+		<script  type="text/javascript" src="<%=assetsPath%>js/ie.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="<%=assetsPath%>css/ie.css" />
+		<![endif]-->
+		/build -->
+	</head>
+	<!-- build:template
+	<body class="timeline"
+		ng-class="{'is-ready': (appReady), 'is-navigating': isNavigating}"
+		<% if (env == 'dev') { %>data-timelineId="best-of-hip-hop-2015"
+		<% } else { %>data-timelineId="<!--#echo var='timelineId' -->"<% } %>>
+	/build -->
+
+		<nav nav-g class="navG"></nav>
+
+        <header class="header is-reduced">
+            <a href class="header__burger fa fa-bars" onclick="ga('send', 'event', 'burger', 'click', 'header buttons')"
+                ng-click="toggleNav()"></a>
+            <a href="http://thebackpackerz.com" target="_blank" class="header__logo" onclick="ga('send', 'event', 'logo', 'click', 'header buttons')"
+                ng-click="backToTop($event)"></a>
+            <div class="header__shares" ng-controller="ShareCtrl">
+                <a href class="share share--facebook" onclick="ga('send', 'event', 'share', 'click', 'header buttons')" ng-click="share('facebook')"></a>
+                <a href class="share share--twitter" onclick="ga('send', 'event', 'share', 'click', 'header buttons')" ng-click="share('twitter')"></a>
+                <a href class="share share--google" onclick="ga('send', 'event', 'share', 'click', 'header buttons')" ng-click="share('google')"></a>
+            </div>
+        </header>
+
+        <section class="cover"
+            ng-style="{'height':documentHeight + 'px'}">
+            <div class="cover__image"
+                ng-style="{'background-image':'url(' + timeline.featured_image.guid + ')'}"></div>
+            <div class="cover__text">
+                <h1 class="cover__title" ng-bind-html="timeline.title"></h1>
+            </div>
+            <a href class="cover__arrow fa fa-angle-down" onclick="ga('send', 'event', 'skipintro', 'click', 'header buttons')"
+                ng-click="skipCover()"></a>
+        </section>
+
+		<div class="container">
+
+            <div class="intro">
+                <div class="overheading"><span class="overheading__label">{{timeline.meta.eventbuttonurl}}</span></div>
+                <h2 class="heading heading--1">{{timeline.meta.eventsubtitle}}</h2>
+                <p class="paragraph">{{timeline.excerpt | stripTags}}</p>
+            </div>
+
+			<nav class="nav js-nav"
+				ng-class="{'is-fixed' : navFixed}">
+				<div class="nav__controls">
+					<a href class="nav__control nav__control--prev"
+						ng-click="setActiveItem(activeItem - 1)"
+						ng-class="{'is-disabled': (activeItem == 0)}"></a>
+					<a href class="nav__control nav__control--next"
+						ng-click="setActiveItem(activeItem + 1)"
+						ng-class="{'is-disabled': (activeItem == timeline.paragraphes.length - 1)}"></a>
+				</div>
+				<div class="nav__limits">
+					<div class="nav__limit nav__limit--left">
+						{{dateMin | date:'mediumDate'}}
+					</div>
+					<div class="nav__limit nav__limit--right">
+						{{dateMax | date:'mediumDate'}}
+					</div>
+				</div>
+				<ul class="nav__items">
+					<li class="nav__item" 
+						ng-repeat="(index, event) in events | orderBy:order" 
+						ng-click="setActiveItem(index)"
+						ng-class="{'is-active': (activeItem == index)}" 
+						ng-style="{{getDatePosition(event.date)}}">
+						<a href class="nav__bullet"
+							ng-style="(event.featured_image.source) ? {'background-image':'url('+ event.featured_image.source +')'} : {}"></a>
+						<div class="nav__infos">
+							<div class="nav__itemDate">
+								{{dateToTimestamp(event.date) | date:'mediumDate'}}
+							</div>
+							<div class="nav__itemTitle" ng-bind-html="event.title"></div>
+						</div>
+					</li>
+				</ul>
+			</nav>
+
+			<section class="content">
+				<article class="article js-article" 
+					ng-repeat="(index, event) in events | orderBy:order"
+					ng-class="{'is-active': (activeItem == index), 'is-focus': (event.FOCUS == 1)}"
+					ng-init="prevDate = (index > 0) ? events[(index - 1)].date : ''">
+					<div class="article__background"
+						ng-style="(event.FOCUS == 1 && event.MEDIAS.length && event.MEDIAS[0].TYPE == 'IMAGE') ? {'background-image':'url('+ event.MEDIAS[0].URL +')'} : {}"></div>
+					<div class="article__colDate">
+						<div class="article__colDateWrapper"
+							ng-if="event.metas.dateCustom || prevDate != event.date">
+							<span class="date" 
+								ng-if="event.metas.dateCustom" 
+								ng-bind-html="event.metas.dateCustom"></span>
+							<span class="date date--formated" 
+								ng-if="!event.metas.dateCustom">{{dateToTimestamp(event.date) | date:'mediumDate'}}</span>
+						</div>
+					</div>
+					<div class="article__colContent">
+						<div class="article__colContentWrapper">
+							<span class="date" 
+								ng-if="event.metas.dateCustom" 
+								ng-bind-html="event.metas.dateCustom"></span>
+							<span class="date" 
+								ng-if="!event.metas.dateCustom">{{dateToTimestamp(event.date) | date:'mediumDate'}}</span>
+							<div class="banner">
+								<div class="banner__image"
+									ng-style="(event.featured_image.source) ? {'background-image':'url('+ event.featured_image.source +')'} : {}"></div>
+								<div class="banner__text">
+									<h2 class="heading heading--2" 
+										ng-if="event.title" 
+										ng-bind-html="event.title"></h2>
+									<h2 class="heading heading--3" 
+										ng-if="event.meta.eventsubtitle" 
+										ng-bind-html="event.meta.eventsubtitle"></h2>
+								</div>
+							</div>
+							<div class="paragraph">
+								<div
+									ng-bind-html="event.content | trustAsHtml"></div>
+							</div>
+							<a ng-href="{{event.meta.eventbuttonurl}}" target="_blank" class="button button--important"
+								ng-if="event.meta.eventbuttonlabel && event.meta.eventbuttonurl">{{event.meta.eventbuttonlabel}}</a>
+						</div>
+					</div>
+				</article>
+
+			</section>
+
+			<footer class="footer"
+                    ng-include="config.inc + 'footer_'+ timelineId +'.html'"></footer>
+
+		</div>
+
+        <div class="loader">
+            <!--[if lte IE 9]>
+                <div class="browserupgrade">Désolé, <strong>la version d'Internet Explorer que vous utilisez n'est pas prise en charge</strong>. Merci de <a href="http://browsehappy.com/" target="_blank">mettre à jour votre navigateur</a> afin de profiter de l'expérience.</div>
+            <![endif]-->
+        </div>
+
+		<!-- build:template
+		<script src="<%=assetsPath%>js/vendors.min.js"></script>
+		<script src="<%=assetsPath%>js/libs.js"></script>
+		<script src="<%=assetsPath%>js/app.js?<%=timestamp%>"></script>
+		/build -->
+	</body>
+</html>

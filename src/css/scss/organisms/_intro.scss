@@ -1,0 +1,49 @@
+.intro {
+	margin:0 20px;
+	padding-bottom:$height-nav;
+	overflow:hidden;
+
+    body.in-app & {
+        margin:0;
+        padding-bottom:$height-nav-mobile;
+    }
+
+    &__head {
+        padding:10px;
+        border-bottom:1px solid $color-light;
+        margin-bottom:15px;
+        color:$color-grey;
+        font-family:"HelveticaNeue-Light","Roboto-Reg",Arial;
+        font-size:11px;
+        line-height:15px;
+    }
+
+    &__author {
+        display:block;
+    }
+
+	&__shares {
+		text-align:center;
+        margin-top:40px;
+
+        body.in-app & {
+            margin-top:20px;
+        }
+
+        body.is-webview & {
+            display:none;
+        }
+	}
+
+    .paragraph {
+        width:92%;
+        margin:auto;
+        text-align:center;
+        padding:0;
+		body.in-app & {
+			width:auto;
+			text-align:left;
+			padding:0 10px;
+		}
+    }
+}

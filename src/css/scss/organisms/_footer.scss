@@ -1,0 +1,58 @@
+.footer {
+    border-top:1px solid $color-light;
+    padding-top:40px;
+    text-align:center;
+
+    .heading {
+        margin-bottom:10px;
+    }
+
+    .paragraph {
+        margin-bottom:20px;
+
+        a {
+            color:#000;
+            &:hover {
+                text-decoration:none;
+            }
+        }
+    }
+
+    &__shares {
+        margin-bottom:60px;
+
+        .share {
+            line-height:initial;
+        }
+    }
+
+    &__flyer {
+        width:90%;
+        max-width:500px;
+        margin:0 auto 60px auto;
+        text-decoration:none;
+
+        img {
+            width:100%;
+            padding:1px;
+            border:2px solid $color-light;
+            transition: border linear 0.1s;
+        }
+
+        a {
+            text-decoration:none;
+            &:hover img {
+                border-color:$color-red;
+            }
+        }
+
+        .button {
+            margin-top:20px;
+        }
+    }
+
+    &__credits {
+        margin-bottom:40px;
+    }
+
+}

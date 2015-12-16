@@ -1,0 +1,12 @@
+<ul class="navG__list">
+	<li class="navG__item navG__item--home">
+		<a href="/" onclick="ga('send', 'event', 'navCat', 'click', 'nav buttons')" target="_blank">home</a>
+	</li>
+	<li class="navG__item navG__item--rewind">
+		<a href="/rewind-les-100-meilleurs-albums-de-rap-us-depuis-2000" onclick="ga('send', 'event', 'navCat', 'click', 'nav buttons')" target="_blank">rewind</a>
+	</li>
+	<li class="navG__item navG__item--{{item.slug}}"
+		ng-repeat="(index, item) in nav">
+		<a ng-href="{{item.link}}" onclick="ga('send', 'event', 'navCat', 'click', 'nav buttons')" target="_blank" ng-bind-html="item.name | lowercase"></a>
+	</li>
+</ul>

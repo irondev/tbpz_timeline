@@ -1,0 +1,85 @@
+.header {
+	position:fixed;
+	z-index:10;
+	width:100%;
+	height:55px;
+	top:0;
+	left:0;
+    background:rgba($color-dark, 0.9);
+    text-align:center;
+    transition:height 0.25s;
+
+    @media (min-width:$bp-phone) {
+        height:90px;
+    }
+
+    &__burger {
+        position:absolute;
+        left:0;
+        top:50%;
+        margin-left:20px;
+        margin-top:-14px;
+        color:$color-red;
+        font-size:28px;
+        text-decoration:none;
+        transition:color linear 0.1s;
+
+        &:hover {
+            color:#FFF;
+        }
+
+        body.is-navigating & {
+            color:#FFF;
+        }
+    }
+
+    &__logo {
+    	display:inline-block;
+        width:260px;
+        height:100%;
+        background:url("../img/logo.png") no-repeat center;
+        background-size:auto 40%;
+    }
+
+    &__shares {
+        display:none;
+        position:absolute;
+        right:0;
+        top:50%;
+        margin-right:20px;
+        margin-top:-14px;
+
+        .share {
+            height:28px;
+            padding:0 6px;
+            &:before {
+                float:left;
+                line-height:30px;
+            }
+        }
+
+        @media (min-width:$bp-phablet) {
+            display:block;
+        }
+    }
+
+    &:after {
+        display:block;
+        position:absolute;
+        content:' ';
+        height:3px;
+        width:100%;
+        left:0;
+        bottom:-3px;
+        background:linear-gradient(to bottom, rgba(#000,0.5), transparent);
+    }
+
+    &.is-reduced {
+        height:55px;
+    }
+
+    body.is-navigating & {
+        background:$color-dark;
+        height:55px;
+    }
+}

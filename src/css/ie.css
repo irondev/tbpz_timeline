@@ -1,0 +1,12 @@
+.header {border-bottom:1px solid #7c8699;}
+.container {padding-left:20px;border-left:1px solid #d4dae6;padding-right:20px;border-right:1px solid #d4dae6;}
+.cover__text .heading,
+.cover__infos {-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=45,Strength=4)";}
+.nav {display:none;}
+.intro {padding-bottom:30px;border-bottom:1px solid #d4dae6;}
+.article__colDate:after {display:none;}
+.article__colContentWrapper:before {display:none;}
+.container>.content:after {display:none;}
+.article.is-focus .article__background {display:none;}
+.article__colDate {width:20%;}
+.paywall .connex-premium[gbType="oldschool"] {display:none;}
