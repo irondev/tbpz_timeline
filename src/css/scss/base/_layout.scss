@@ -4,7 +4,7 @@ body {
         background:$color-white;
     }
     &.is-ready:not(.in-app) {
-        background:linear-gradient(to bottom, $color-lightest, $color-white);
+        background:$color-lightest;
     }
 }
 
