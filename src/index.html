@@ -33,7 +33,7 @@
 	</head>
 	<!-- build:template
 	<body class="timeline"
-		ng-class="{'is-ready': (appReady), 'is-navigating': isNavigating}"
+		ng-class="{'in-app': (inApp), 'is-ready': (appReady), 'is-navigating': isNavigating}"
 		<% if (env == 'dev') { %>data-timelineId="best-of-hip-hop-2015"
 		<% } else { %>data-timelineId="<!--#echo var='timelineId' -->"<% } %>>
 	/build -->
@@ -60,6 +60,7 @@
                 <h1 class="cover__title" ng-bind-html="timeline.title"></h1>
             </div>
             <a href class="cover__arrow fa fa-angle-down" onclick="ga('send', 'event', 'skipintro', 'click', 'header buttons')"
+            	ng-style="{'visibility':documentScroll > 0 ? 'hidden' : 'visible'}"
                 ng-click="skipCover()"></a>
         </section>
 
@@ -116,21 +117,13 @@
 						ng-style="(event.FOCUS == 1 && event.MEDIAS.length && event.MEDIAS[0].TYPE == 'IMAGE') ? {'background-image':'url('+ event.MEDIAS[0].URL +')'} : {}"></div>
 					<div class="article__colDate">
 						<div class="article__colDateWrapper"
-							ng-if="event.metas.dateCustom || prevDate != event.date">
-							<span class="date" 
-								ng-if="event.metas.dateCustom" 
-								ng-bind-html="event.metas.dateCustom"></span>
-							<span class="date date--formated" 
-								ng-if="!event.metas.dateCustom">{{dateToTimestamp(event.date) | date:'mediumDate'}}</span>
+							ng-if="prevDate != event.date">
+							<span class="date date--formated">{{dateToTimestamp(event.date) | date:'mediumDate'}}</span>
 						</div>
 					</div>
 					<div class="article__colContent">
 						<div class="article__colContentWrapper">
-							<span class="date" 
-								ng-if="event.metas.dateCustom" 
-								ng-bind-html="event.metas.dateCustom"></span>
-							<span class="date" 
-								ng-if="!event.metas.dateCustom">{{dateToTimestamp(event.date) | date:'mediumDate'}}</span>
+							<span class="date">{{dateToTimestamp(event.date) | date:'mediumDate'}}</span>
 							<div class="banner">
 								<div class="banner__image"
 									ng-style="(event.featured_image.source) ? {'background-image':'url('+ event.featured_image.source +')'} : {}"></div>

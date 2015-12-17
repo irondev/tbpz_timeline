@@ -9,8 +9,8 @@
     transition:height 0.25s;
 
     body.in-app & {
-        height:$height-nav-mobile;
-        margin-top:-$height-nav-mobile;
+        height:15px;
+        margin-top:-15px;
     }
 
     &.is-fixed {
@@ -35,6 +35,7 @@
         margin:55px auto 20px auto;
 
         body.in-app & {
+            display:none;
             margin:25px auto 20px auto;
         }
 
@@ -183,7 +184,6 @@
             width:100%;
             margin:0;
             padding:0;
-            font-family:'OpenSans';
             top:0;
             left:0;
             background:none;
@@ -259,9 +259,9 @@
         z-index:-1;
         white-space:nowrap;
         top:90px;
-        font-family:Arial;
+        font-family:'Roboto';
         font-size:13px;
-        font-weight:bold;
+        font-weight:300;
         color:$color-grey;
         text-transform:capitalize;
 

@@ -21,6 +21,7 @@
 
         body.in-app & {
             width:25px;
+            padding:20px 0;
             @media (min-width:$bp-phone) {
                 width:20%;
             }
@@ -59,12 +60,11 @@
             top:90px;
 
             body.in-app & {
-                top:62px;
+                top:53px;
                 width:16px;
                 height:16px;
                 margin-left:-11px;
                 @media (min-width:$bp-phone) {
-                    top:90px;
                     width:20px;
                     height:20px;
                     margin-left:-12px;
@@ -84,12 +84,11 @@
             width:auto;
             margin-left:55px;
             margin-right:20px;
-            padding:30px 0;
+            padding:20px 0;
             @media (min-width:$bp-phone) {
                 float:left;
                 width:66%;
                 margin:0 7%;
-                padding:60px 0;
             }
             @media (min-width:$bp-tablet) {
                 width:70%;
@@ -104,10 +103,7 @@
             text-align:center;
 
             body.in-app & {
-                padding:30px 10px;
-                @media (min-width:$bp-phone) {
-                    padding:30px 40px;
-                }
+                padding:0;
             }
 
             &:before {
@@ -142,6 +138,11 @@
                 padding:30px 40px;
                 text-align:left;
 
+                body.in-app & {
+                    padding:0 20px 10px 20px;
+                    font-size:12px;
+                }
+
                 p {
                     margin:15px 0;
                 }
@@ -169,12 +170,15 @@
 
         .date {
             display:none;
-            word-spacing:initial;
-            margin-bottom:35px;
 
             body.in-app & {
                 display:block;
-                margin-bottom:10px;
+                padding:10px 0;
+                word-spacing:initial;
+                background:$color-dark;
+                color:$color-white;
+                font-size:18px;
+
                 @media (min-width:$bp-phone) {
                     display:none;
                 }
