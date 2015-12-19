@@ -6,7 +6,7 @@ $color-dark: #222421;
 $color-grey: #979797;
 $color-light: #ccc;
 $color-lighter: #e3e3e3;
-$color-lightest: #f0f0f0;
+$color-lightest: #eeeeee;
 $color-red: #b22d2d;
 
 /* SIZES */
@@ -22,4 +22,4 @@ $bp-min: 320px;
 $bp-phone: 480px;
 $bp-phablet: 640px;
 $bp-tablet: 768px;
-$bp-smalldesktop: 1044px;
+$bp-smalldesktop: $width-container + 8;

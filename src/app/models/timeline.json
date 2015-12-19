@@ -48,43 +48,11 @@
             "version-history": "http:\/\/thebackpackerz.com\/wp-json\/posts\/14293\/revisions"
         },
         "eventsubtitle": "Le premier album de Joey Bada$$",
-        "eventthumb": {
-            "id": 14272,
-            "alt": "",
-            "title": "badass-thumb",
-            "caption": "",
-            "description": "",
-            "mime_type": "image\/png",
-            "url": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-            "width": 60,
-            "height": 60,
-            "sizes": {
-                "thumbnail": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "thumbnail-width": 60,
-                "thumbnail-height": 60,
-                "medium": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "medium-width": 60,
-                "medium-height": 60,
-                "large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "large-width": 60,
-                "large-height": 60,
-                "single-large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "single-large-width": 60,
-                "single-large-height": 60,
-                "small": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "small-width": 60,
-                "small-height": 60,
-                "thumbnail-large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "thumbnail-large-width": 60,
-                "thumbnail-large-height": 60
-            }
-        },
+        "": false,
         "eventbuttonlabel": "Lire la chronique",
         "eventbuttonurl": "http:\/\/thebackpackerz.com\/chronique-joey-badass-b4-da-ss\/",
-        "inmixtapelabel": "Paper Trail$",
-        "inmixtapeurl": "",
-        "eventtracktitle": "Joey Bada$$ - \"Christ Conscious\"",
-        "eventtrackurl": "https:\/\/www.youtube.com\/watch?v=yRfQGXFRr30"
+        "eventmixtapetitle": false,
+        "eventmixtapeurl": false
     },
     "featured_image": {
         "ID": 14271,
@@ -185,12 +153,12 @@
         "topic": [{
             "ID": 1121,
             "name": "Best of 2015",
-            "slug": "best-of-2015",
+            "slug": "best-of-hip-hop-2015",
             "description": "",
             "taxonomy": "topic",
             "parent": null,
             "count": 17,
-            "link": "http:\/\/thebackpackerz.com\/topic\/best-of-2015\/",
+            "link": "http:\/\/thebackpackerz.com\/topic\/best-of-hip-hop-2015\/",
             "meta": {
                 "links": {
                     "collection": "http:\/\/thebackpackerz.com\/wp-json\/taxonomies\/topic\/terms",
@@ -249,43 +217,11 @@
             "version-history": "http:\/\/thebackpackerz.com\/wp-json\/posts\/14292\/revisions"
         },
         "eventsubtitle": "Le premier album de Joey Bada$$",
-        "eventthumb": {
-            "id": 14272,
-            "alt": "",
-            "title": "badass-thumb",
-            "caption": "",
-            "description": "",
-            "mime_type": "image\/png",
-            "url": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-            "width": 60,
-            "height": 60,
-            "sizes": {
-                "thumbnail": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "thumbnail-width": 60,
-                "thumbnail-height": 60,
-                "medium": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "medium-width": 60,
-                "medium-height": 60,
-                "large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "large-width": 60,
-                "large-height": 60,
-                "single-large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "single-large-width": 60,
-                "single-large-height": 60,
-                "small": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "small-width": 60,
-                "small-height": 60,
-                "thumbnail-large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "thumbnail-large-width": 60,
-                "thumbnail-large-height": 60
-            }
-        },
+        "": false,
         "eventbuttonlabel": "Lire la chronique",
         "eventbuttonurl": "http:\/\/thebackpackerz.com\/chronique-joey-badass-b4-da-ss\/",
-        "inmixtapelabel": "Paper Trail$",
-        "inmixtapeurl": "",
-        "eventtracktitle": "Joey Bada$$ - \"Christ Conscious\"",
-        "eventtrackurl": "https:\/\/www.youtube.com\/watch?v=yRfQGXFRr30"
+        "eventmixtapetitle": false,
+        "eventmixtapeurl": false
     },
     "featured_image": {
         "ID": 14271,
@@ -386,12 +322,12 @@
         "topic": [{
             "ID": 1121,
             "name": "Best of 2015",
-            "slug": "best-of-2015",
+            "slug": "best-of-hip-hop-2015",
             "description": "",
             "taxonomy": "topic",
             "parent": null,
             "count": 17,
-            "link": "http:\/\/thebackpackerz.com\/topic\/best-of-2015\/",
+            "link": "http:\/\/thebackpackerz.com\/topic\/best-of-hip-hop-2015\/",
             "meta": {
                 "links": {
                     "collection": "http:\/\/thebackpackerz.com\/wp-json\/taxonomies\/topic\/terms",
@@ -450,43 +386,11 @@
             "version-history": "http:\/\/thebackpackerz.com\/wp-json\/posts\/14291\/revisions"
         },
         "eventsubtitle": "Le premier album de Joey Bada$$",
-        "eventthumb": {
-            "id": 14272,
-            "alt": "",
-            "title": "badass-thumb",
-            "caption": "",
-            "description": "",
-            "mime_type": "image\/png",
-            "url": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-            "width": 60,
-            "height": 60,
-            "sizes": {
-                "thumbnail": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "thumbnail-width": 60,
-                "thumbnail-height": 60,
-                "medium": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "medium-width": 60,
-                "medium-height": 60,
-                "large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "large-width": 60,
-                "large-height": 60,
-                "single-large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "single-large-width": 60,
-                "single-large-height": 60,
-                "small": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "small-width": 60,
-                "small-height": 60,
-                "thumbnail-large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "thumbnail-large-width": 60,
-                "thumbnail-large-height": 60
-            }
-        },
+        "": false,
         "eventbuttonlabel": "Lire la chronique",
         "eventbuttonurl": "http:\/\/thebackpackerz.com\/chronique-joey-badass-b4-da-ss\/",
-        "inmixtapelabel": "Paper Trail$",
-        "inmixtapeurl": "",
-        "eventtracktitle": "Joey Bada$$ - \"Christ Conscious\"",
-        "eventtrackurl": "https:\/\/www.youtube.com\/watch?v=yRfQGXFRr30"
+        "eventmixtapetitle": false,
+        "eventmixtapeurl": false
     },
     "featured_image": {
         "ID": 14271,
@@ -587,12 +491,12 @@
         "topic": [{
             "ID": 1121,
             "name": "Best of 2015",
-            "slug": "best-of-2015",
+            "slug": "best-of-hip-hop-2015",
             "description": "",
             "taxonomy": "topic",
             "parent": null,
             "count": 17,
-            "link": "http:\/\/thebackpackerz.com\/topic\/best-of-2015\/",
+            "link": "http:\/\/thebackpackerz.com\/topic\/best-of-hip-hop-2015\/",
             "meta": {
                 "links": {
                     "collection": "http:\/\/thebackpackerz.com\/wp-json\/taxonomies\/topic\/terms",
@@ -651,43 +555,11 @@
             "version-history": "http:\/\/thebackpackerz.com\/wp-json\/posts\/14290\/revisions"
         },
         "eventsubtitle": "Le premier album de Joey Bada$$",
-        "eventthumb": {
-            "id": 14272,
-            "alt": "",
-            "title": "badass-thumb",
-            "caption": "",
-            "description": "",
-            "mime_type": "image\/png",
-            "url": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-            "width": 60,
-            "height": 60,
-            "sizes": {
-                "thumbnail": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "thumbnail-width": 60,
-                "thumbnail-height": 60,
-                "medium": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "medium-width": 60,
-                "medium-height": 60,
-                "large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "large-width": 60,
-                "large-height": 60,
-                "single-large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "single-large-width": 60,
-                "single-large-height": 60,
-                "small": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "small-width": 60,
-                "small-height": 60,
-                "thumbnail-large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "thumbnail-large-width": 60,
-                "thumbnail-large-height": 60
-            }
-        },
+        "": false,
         "eventbuttonlabel": "Lire la chronique",
         "eventbuttonurl": "http:\/\/thebackpackerz.com\/chronique-joey-badass-b4-da-ss\/",
-        "inmixtapelabel": "Paper Trail$",
-        "inmixtapeurl": "",
-        "eventtracktitle": "Joey Bada$$ - \"Christ Conscious\"",
-        "eventtrackurl": "https:\/\/www.youtube.com\/watch?v=yRfQGXFRr30"
+        "eventmixtapetitle": false,
+        "eventmixtapeurl": false
     },
     "featured_image": {
         "ID": 14271,
@@ -788,12 +660,12 @@
         "topic": [{
             "ID": 1121,
             "name": "Best of 2015",
-            "slug": "best-of-2015",
+            "slug": "best-of-hip-hop-2015",
             "description": "",
             "taxonomy": "topic",
             "parent": null,
             "count": 17,
-            "link": "http:\/\/thebackpackerz.com\/topic\/best-of-2015\/",
+            "link": "http:\/\/thebackpackerz.com\/topic\/best-of-hip-hop-2015\/",
             "meta": {
                 "links": {
                     "collection": "http:\/\/thebackpackerz.com\/wp-json\/taxonomies\/topic\/terms",
@@ -852,43 +724,11 @@
             "version-history": "http:\/\/thebackpackerz.com\/wp-json\/posts\/14289\/revisions"
         },
         "eventsubtitle": "Le premier album de Joey Bada$$",
-        "eventthumb": {
-            "id": 14272,
-            "alt": "",
-            "title": "badass-thumb",
-            "caption": "",
-            "description": "",
-            "mime_type": "image\/png",
-            "url": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-            "width": 60,
-            "height": 60,
-            "sizes": {
-                "thumbnail": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "thumbnail-width": 60,
-                "thumbnail-height": 60,
-                "medium": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "medium-width": 60,
-                "medium-height": 60,
-                "large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "large-width": 60,
-                "large-height": 60,
-                "single-large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "single-large-width": 60,
-                "single-large-height": 60,
-                "small": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "small-width": 60,
-                "small-height": 60,
-                "thumbnail-large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "thumbnail-large-width": 60,
-                "thumbnail-large-height": 60
-            }
-        },
+        "": false,
         "eventbuttonlabel": "Lire la chronique",
         "eventbuttonurl": "http:\/\/thebackpackerz.com\/chronique-joey-badass-b4-da-ss\/",
-        "inmixtapelabel": "Paper Trail$",
-        "inmixtapeurl": "",
-        "eventtracktitle": "Joey Bada$$ - \"Christ Conscious\"",
-        "eventtrackurl": "https:\/\/www.youtube.com\/watch?v=yRfQGXFRr30"
+        "eventmixtapetitle": false,
+        "eventmixtapeurl": false
     },
     "featured_image": {
         "ID": 14271,
@@ -989,12 +829,12 @@
         "topic": [{
             "ID": 1121,
             "name": "Best of 2015",
-            "slug": "best-of-2015",
+            "slug": "best-of-hip-hop-2015",
             "description": "",
             "taxonomy": "topic",
             "parent": null,
             "count": 17,
-            "link": "http:\/\/thebackpackerz.com\/topic\/best-of-2015\/",
+            "link": "http:\/\/thebackpackerz.com\/topic\/best-of-hip-hop-2015\/",
             "meta": {
                 "links": {
                     "collection": "http:\/\/thebackpackerz.com\/wp-json\/taxonomies\/topic\/terms",
@@ -1053,43 +893,11 @@
             "version-history": "http:\/\/thebackpackerz.com\/wp-json\/posts\/14288\/revisions"
         },
         "eventsubtitle": "Le premier album de Joey Bada$$",
-        "eventthumb": {
-            "id": 14272,
-            "alt": "",
-            "title": "badass-thumb",
-            "caption": "",
-            "description": "",
-            "mime_type": "image\/png",
-            "url": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-            "width": 60,
-            "height": 60,
-            "sizes": {
-                "thumbnail": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "thumbnail-width": 60,
-                "thumbnail-height": 60,
-                "medium": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "medium-width": 60,
-                "medium-height": 60,
-                "large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "large-width": 60,
-                "large-height": 60,
-                "single-large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "single-large-width": 60,
-                "single-large-height": 60,
-                "small": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "small-width": 60,
-                "small-height": 60,
-                "thumbnail-large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "thumbnail-large-width": 60,
-                "thumbnail-large-height": 60
-            }
-        },
+        "": false,
         "eventbuttonlabel": "Lire la chronique",
         "eventbuttonurl": "http:\/\/thebackpackerz.com\/chronique-joey-badass-b4-da-ss\/",
-        "inmixtapelabel": "Paper Trail$",
-        "inmixtapeurl": "",
-        "eventtracktitle": "Joey Bada$$ - \"Christ Conscious\"",
-        "eventtrackurl": "https:\/\/www.youtube.com\/watch?v=yRfQGXFRr30"
+        "eventmixtapetitle": false,
+        "eventmixtapeurl": false
     },
     "featured_image": {
         "ID": 14271,
@@ -1190,12 +998,12 @@
         "topic": [{
             "ID": 1121,
             "name": "Best of 2015",
-            "slug": "best-of-2015",
+            "slug": "best-of-hip-hop-2015",
             "description": "",
             "taxonomy": "topic",
             "parent": null,
             "count": 17,
-            "link": "http:\/\/thebackpackerz.com\/topic\/best-of-2015\/",
+            "link": "http:\/\/thebackpackerz.com\/topic\/best-of-hip-hop-2015\/",
             "meta": {
                 "links": {
                     "collection": "http:\/\/thebackpackerz.com\/wp-json\/taxonomies\/topic\/terms",
@@ -1254,43 +1062,11 @@
             "version-history": "http:\/\/thebackpackerz.com\/wp-json\/posts\/14287\/revisions"
         },
         "eventsubtitle": "Le premier album de Joey Bada$$",
-        "eventthumb": {
-            "id": 14272,
-            "alt": "",
-            "title": "badass-thumb",
-            "caption": "",
-            "description": "",
-            "mime_type": "image\/png",
-            "url": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-            "width": 60,
-            "height": 60,
-            "sizes": {
-                "thumbnail": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "thumbnail-width": 60,
-                "thumbnail-height": 60,
-                "medium": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "medium-width": 60,
-                "medium-height": 60,
-                "large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "large-width": 60,
-                "large-height": 60,
-                "single-large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "single-large-width": 60,
-                "single-large-height": 60,
-                "small": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "small-width": 60,
-                "small-height": 60,
-                "thumbnail-large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "thumbnail-large-width": 60,
-                "thumbnail-large-height": 60
-            }
-        },
+        "": false,
         "eventbuttonlabel": "Lire la chronique",
         "eventbuttonurl": "http:\/\/thebackpackerz.com\/chronique-joey-badass-b4-da-ss\/",
-        "inmixtapelabel": "Paper Trail$",
-        "inmixtapeurl": "",
-        "eventtracktitle": "Joey Bada$$ - \"Christ Conscious\"",
-        "eventtrackurl": "https:\/\/www.youtube.com\/watch?v=yRfQGXFRr30"
+        "eventmixtapetitle": false,
+        "eventmixtapeurl": false
     },
     "featured_image": {
         "ID": 14271,
@@ -1391,12 +1167,12 @@
         "topic": [{
             "ID": 1121,
             "name": "Best of 2015",
-            "slug": "best-of-2015",
+            "slug": "best-of-hip-hop-2015",
             "description": "",
             "taxonomy": "topic",
             "parent": null,
             "count": 17,
-            "link": "http:\/\/thebackpackerz.com\/topic\/best-of-2015\/",
+            "link": "http:\/\/thebackpackerz.com\/topic\/best-of-hip-hop-2015\/",
             "meta": {
                 "links": {
                     "collection": "http:\/\/thebackpackerz.com\/wp-json\/taxonomies\/topic\/terms",
@@ -1455,44 +1231,11 @@
             "version-history": "http:\/\/thebackpackerz.com\/wp-json\/posts\/14286\/revisions"
         },
         "eventsubtitle": "",
-        "eventthumb": {
-            "id": 14275,
-            "alt": "",
-            "title": "common-thumb",
-            "caption": "",
-            "description": "",
-            "mime_type": "image\/png",
-            "url": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/common-thumb.png",
-            "width": 60,
-            "height": 60,
-            "sizes": {
-                "thumbnail": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/common-thumb.png",
-                "thumbnail-width": 60,
-                "thumbnail-height": 60,
-                "medium": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/common-thumb.png",
-                "medium-width": 60,
-                "medium-height": 60,
-                "large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/common-thumb.png",
-                "large-width": 60,
-                "large-height": 60,
-                "single-large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/common-thumb.png",
-                "single-large-width": 60,
-                "single-large-height": 60,
-                "small": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/common-thumb.png",
-                "small-width": 60,
-                "small-height": 60,
-                "thumbnail-large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/common-thumb.png",
-                "thumbnail-large-width": 60,
-                "thumbnail-large-height": 60
-            }
-        },
+        "": false,
         "eventbuttonlabel": "",
         "eventbuttonurl": "",
-        "inmixtapelabel": "",
-        "inmixtapeurl": "",
-        "": false,
-        "eventtracktitle": "",
-        "eventtrackurl": ""
+        "eventmixtapetitle": false,
+        "eventmixtapeurl": false
     },
     "featured_image": {
         "ID": 14274,
@@ -1594,12 +1337,12 @@
         "topic": [{
             "ID": 1121,
             "name": "Best of 2015",
-            "slug": "best-of-2015",
+            "slug": "best-of-hip-hop-2015",
             "description": "",
             "taxonomy": "topic",
             "parent": null,
             "count": 17,
-            "link": "http:\/\/thebackpackerz.com\/topic\/best-of-2015\/",
+            "link": "http:\/\/thebackpackerz.com\/topic\/best-of-hip-hop-2015\/",
             "meta": {
                 "links": {
                     "collection": "http:\/\/thebackpackerz.com\/wp-json\/taxonomies\/topic\/terms",
@@ -1658,44 +1401,11 @@
             "version-history": "http:\/\/thebackpackerz.com\/wp-json\/posts\/14285\/revisions"
         },
         "eventsubtitle": "",
-        "eventthumb": {
-            "id": 14275,
-            "alt": "",
-            "title": "common-thumb",
-            "caption": "",
-            "description": "",
-            "mime_type": "image\/png",
-            "url": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/common-thumb.png",
-            "width": 60,
-            "height": 60,
-            "sizes": {
-                "thumbnail": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/common-thumb.png",
-                "thumbnail-width": 60,
-                "thumbnail-height": 60,
-                "medium": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/common-thumb.png",
-                "medium-width": 60,
-                "medium-height": 60,
-                "large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/common-thumb.png",
-                "large-width": 60,
-                "large-height": 60,
-                "single-large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/common-thumb.png",
-                "single-large-width": 60,
-                "single-large-height": 60,
-                "small": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/common-thumb.png",
-                "small-width": 60,
-                "small-height": 60,
-                "thumbnail-large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/common-thumb.png",
-                "thumbnail-large-width": 60,
-                "thumbnail-large-height": 60
-            }
-        },
+        "": false,
         "eventbuttonlabel": "",
         "eventbuttonurl": "",
-        "inmixtapelabel": "",
-        "inmixtapeurl": "",
-        "": false,
-        "eventtracktitle": "",
-        "eventtrackurl": ""
+        "eventmixtapetitle": false,
+        "eventmixtapeurl": false
     },
     "featured_image": {
         "ID": 14274,
@@ -1797,12 +1507,12 @@
         "topic": [{
             "ID": 1121,
             "name": "Best of 2015",
-            "slug": "best-of-2015",
+            "slug": "best-of-hip-hop-2015",
             "description": "",
             "taxonomy": "topic",
             "parent": null,
             "count": 17,
-            "link": "http:\/\/thebackpackerz.com\/topic\/best-of-2015\/",
+            "link": "http:\/\/thebackpackerz.com\/topic\/best-of-hip-hop-2015\/",
             "meta": {
                 "links": {
                     "collection": "http:\/\/thebackpackerz.com\/wp-json\/taxonomies\/topic\/terms",
@@ -1861,44 +1571,11 @@
             "version-history": "http:\/\/thebackpackerz.com\/wp-json\/posts\/14284\/revisions"
         },
         "eventsubtitle": "",
-        "eventthumb": {
-            "id": 14275,
-            "alt": "",
-            "title": "common-thumb",
-            "caption": "",
-            "description": "",
-            "mime_type": "image\/png",
-            "url": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/common-thumb.png",
-            "width": 60,
-            "height": 60,
-            "sizes": {
-                "thumbnail": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/common-thumb.png",
-                "thumbnail-width": 60,
-                "thumbnail-height": 60,
-                "medium": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/common-thumb.png",
-                "medium-width": 60,
-                "medium-height": 60,
-                "large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/common-thumb.png",
-                "large-width": 60,
-                "large-height": 60,
-                "single-large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/common-thumb.png",
-                "single-large-width": 60,
-                "single-large-height": 60,
-                "small": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/common-thumb.png",
-                "small-width": 60,
-                "small-height": 60,
-                "thumbnail-large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/common-thumb.png",
-                "thumbnail-large-width": 60,
-                "thumbnail-large-height": 60
-            }
-        },
+        "": false,
         "eventbuttonlabel": "",
         "eventbuttonurl": "",
-        "inmixtapelabel": "",
-        "inmixtapeurl": "",
-        "": false,
-        "eventtracktitle": "",
-        "eventtrackurl": ""
+        "eventmixtapetitle": false,
+        "eventmixtapeurl": false
     },
     "featured_image": {
         "ID": 14274,
@@ -2000,12 +1677,12 @@
         "topic": [{
             "ID": 1121,
             "name": "Best of 2015",
-            "slug": "best-of-2015",
+            "slug": "best-of-hip-hop-2015",
             "description": "",
             "taxonomy": "topic",
             "parent": null,
             "count": 17,
-            "link": "http:\/\/thebackpackerz.com\/topic\/best-of-2015\/",
+            "link": "http:\/\/thebackpackerz.com\/topic\/best-of-hip-hop-2015\/",
             "meta": {
                 "links": {
                     "collection": "http:\/\/thebackpackerz.com\/wp-json\/taxonomies\/topic\/terms",
@@ -2064,43 +1741,11 @@
             "version-history": "http:\/\/thebackpackerz.com\/wp-json\/posts\/14283\/revisions"
         },
         "eventsubtitle": "Le premier album de Joey Bada$$",
-        "eventthumb": {
-            "id": 14272,
-            "alt": "",
-            "title": "badass-thumb",
-            "caption": "",
-            "description": "",
-            "mime_type": "image\/png",
-            "url": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-            "width": 60,
-            "height": 60,
-            "sizes": {
-                "thumbnail": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "thumbnail-width": 60,
-                "thumbnail-height": 60,
-                "medium": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "medium-width": 60,
-                "medium-height": 60,
-                "large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "large-width": 60,
-                "large-height": 60,
-                "single-large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "single-large-width": 60,
-                "single-large-height": 60,
-                "small": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "small-width": 60,
-                "small-height": 60,
-                "thumbnail-large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "thumbnail-large-width": 60,
-                "thumbnail-large-height": 60
-            }
-        },
+        "": false,
         "eventbuttonlabel": "Lire la chronique",
         "eventbuttonurl": "http:\/\/thebackpackerz.com\/chronique-joey-badass-b4-da-ss\/",
-        "inmixtapelabel": "Paper Trail$",
-        "inmixtapeurl": "",
-        "eventtracktitle": "Joey Bada$$ - \"Christ Conscious\"",
-        "eventtrackurl": "https:\/\/www.youtube.com\/watch?v=yRfQGXFRr30"
+        "eventmixtapetitle": false,
+        "eventmixtapeurl": false
     },
     "featured_image": {
         "ID": 14271,
@@ -2201,12 +1846,12 @@
         "topic": [{
             "ID": 1121,
             "name": "Best of 2015",
-            "slug": "best-of-2015",
+            "slug": "best-of-hip-hop-2015",
             "description": "",
             "taxonomy": "topic",
             "parent": null,
             "count": 17,
-            "link": "http:\/\/thebackpackerz.com\/topic\/best-of-2015\/",
+            "link": "http:\/\/thebackpackerz.com\/topic\/best-of-hip-hop-2015\/",
             "meta": {
                 "links": {
                     "collection": "http:\/\/thebackpackerz.com\/wp-json\/taxonomies\/topic\/terms",
@@ -2265,43 +1910,11 @@
             "version-history": "http:\/\/thebackpackerz.com\/wp-json\/posts\/14282\/revisions"
         },
         "eventsubtitle": "Le premier album de Joey Bada$$",
-        "eventthumb": {
-            "id": 14272,
-            "alt": "",
-            "title": "badass-thumb",
-            "caption": "",
-            "description": "",
-            "mime_type": "image\/png",
-            "url": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-            "width": 60,
-            "height": 60,
-            "sizes": {
-                "thumbnail": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "thumbnail-width": 60,
-                "thumbnail-height": 60,
-                "medium": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "medium-width": 60,
-                "medium-height": 60,
-                "large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "large-width": 60,
-                "large-height": 60,
-                "single-large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "single-large-width": 60,
-                "single-large-height": 60,
-                "small": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "small-width": 60,
-                "small-height": 60,
-                "thumbnail-large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "thumbnail-large-width": 60,
-                "thumbnail-large-height": 60
-            }
-        },
+        "": false,
         "eventbuttonlabel": "Lire la chronique",
         "eventbuttonurl": "http:\/\/thebackpackerz.com\/chronique-joey-badass-b4-da-ss\/",
-        "inmixtapelabel": "Paper Trail$",
-        "inmixtapeurl": "",
-        "eventtracktitle": "Joey Bada$$ - \"Christ Conscious\"",
-        "eventtrackurl": "https:\/\/www.youtube.com\/watch?v=yRfQGXFRr30"
+        "eventmixtapetitle": false,
+        "eventmixtapeurl": false
     },
     "featured_image": {
         "ID": 14271,
@@ -2402,12 +2015,12 @@
         "topic": [{
             "ID": 1121,
             "name": "Best of 2015",
-            "slug": "best-of-2015",
+            "slug": "best-of-hip-hop-2015",
             "description": "",
             "taxonomy": "topic",
             "parent": null,
             "count": 17,
-            "link": "http:\/\/thebackpackerz.com\/topic\/best-of-2015\/",
+            "link": "http:\/\/thebackpackerz.com\/topic\/best-of-hip-hop-2015\/",
             "meta": {
                 "links": {
                     "collection": "http:\/\/thebackpackerz.com\/wp-json\/taxonomies\/topic\/terms",
@@ -2466,43 +2079,11 @@
             "version-history": "http:\/\/thebackpackerz.com\/wp-json\/posts\/14281\/revisions"
         },
         "eventsubtitle": "Le premier album de Joey Bada$$",
-        "eventthumb": {
-            "id": 14272,
-            "alt": "",
-            "title": "badass-thumb",
-            "caption": "",
-            "description": "",
-            "mime_type": "image\/png",
-            "url": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-            "width": 60,
-            "height": 60,
-            "sizes": {
-                "thumbnail": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "thumbnail-width": 60,
-                "thumbnail-height": 60,
-                "medium": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "medium-width": 60,
-                "medium-height": 60,
-                "large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "large-width": 60,
-                "large-height": 60,
-                "single-large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "single-large-width": 60,
-                "single-large-height": 60,
-                "small": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "small-width": 60,
-                "small-height": 60,
-                "thumbnail-large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "thumbnail-large-width": 60,
-                "thumbnail-large-height": 60
-            }
-        },
+        "": false,
         "eventbuttonlabel": "Lire la chronique",
         "eventbuttonurl": "http:\/\/thebackpackerz.com\/chronique-joey-badass-b4-da-ss\/",
-        "inmixtapelabel": "Paper Trail$",
-        "inmixtapeurl": "",
-        "eventtracktitle": "Joey Bada$$ - \"Christ Conscious\"",
-        "eventtrackurl": "https:\/\/www.youtube.com\/watch?v=yRfQGXFRr30"
+        "eventmixtapetitle": false,
+        "eventmixtapeurl": false
     },
     "featured_image": {
         "ID": 14271,
@@ -2603,12 +2184,12 @@
         "topic": [{
             "ID": 1121,
             "name": "Best of 2015",
-            "slug": "best-of-2015",
+            "slug": "best-of-hip-hop-2015",
             "description": "",
             "taxonomy": "topic",
             "parent": null,
             "count": 17,
-            "link": "http:\/\/thebackpackerz.com\/topic\/best-of-2015\/",
+            "link": "http:\/\/thebackpackerz.com\/topic\/best-of-hip-hop-2015\/",
             "meta": {
                 "links": {
                     "collection": "http:\/\/thebackpackerz.com\/wp-json\/taxonomies\/topic\/terms",
@@ -2667,44 +2248,11 @@
             "version-history": "http:\/\/thebackpackerz.com\/wp-json\/posts\/14280\/revisions"
         },
         "eventsubtitle": "",
-        "eventthumb": {
-            "id": 14275,
-            "alt": "",
-            "title": "common-thumb",
-            "caption": "",
-            "description": "",
-            "mime_type": "image\/png",
-            "url": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/common-thumb.png",
-            "width": 60,
-            "height": 60,
-            "sizes": {
-                "thumbnail": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/common-thumb.png",
-                "thumbnail-width": 60,
-                "thumbnail-height": 60,
-                "medium": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/common-thumb.png",
-                "medium-width": 60,
-                "medium-height": 60,
-                "large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/common-thumb.png",
-                "large-width": 60,
-                "large-height": 60,
-                "single-large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/common-thumb.png",
-                "single-large-width": 60,
-                "single-large-height": 60,
-                "small": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/common-thumb.png",
-                "small-width": 60,
-                "small-height": 60,
-                "thumbnail-large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/common-thumb.png",
-                "thumbnail-large-width": 60,
-                "thumbnail-large-height": 60
-            }
-        },
+        "": false,
         "eventbuttonlabel": "",
         "eventbuttonurl": "",
-        "inmixtapelabel": "",
-        "inmixtapeurl": "",
-        "": false,
-        "eventtracktitle": "",
-        "eventtrackurl": ""
+        "eventmixtapetitle": false,
+        "eventmixtapeurl": false
     },
     "featured_image": {
         "ID": 14274,
@@ -2806,12 +2354,12 @@
         "topic": [{
             "ID": 1121,
             "name": "Best of 2015",
-            "slug": "best-of-2015",
+            "slug": "best-of-hip-hop-2015",
             "description": "",
             "taxonomy": "topic",
             "parent": null,
             "count": 17,
-            "link": "http:\/\/thebackpackerz.com\/topic\/best-of-2015\/",
+            "link": "http:\/\/thebackpackerz.com\/topic\/best-of-hip-hop-2015\/",
             "meta": {
                 "links": {
                     "collection": "http:\/\/thebackpackerz.com\/wp-json\/taxonomies\/topic\/terms",
@@ -2870,44 +2418,11 @@
             "version-history": "http:\/\/thebackpackerz.com\/wp-json\/posts\/14273\/revisions"
         },
         "eventsubtitle": "",
-        "eventthumb": {
-            "id": 14275,
-            "alt": "",
-            "title": "common-thumb",
-            "caption": "",
-            "description": "",
-            "mime_type": "image\/png",
-            "url": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/common-thumb.png",
-            "width": 60,
-            "height": 60,
-            "sizes": {
-                "thumbnail": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/common-thumb.png",
-                "thumbnail-width": 60,
-                "thumbnail-height": 60,
-                "medium": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/common-thumb.png",
-                "medium-width": 60,
-                "medium-height": 60,
-                "large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/common-thumb.png",
-                "large-width": 60,
-                "large-height": 60,
-                "single-large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/common-thumb.png",
-                "single-large-width": 60,
-                "single-large-height": 60,
-                "small": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/common-thumb.png",
-                "small-width": 60,
-                "small-height": 60,
-                "thumbnail-large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/common-thumb.png",
-                "thumbnail-large-width": 60,
-                "thumbnail-large-height": 60
-            }
-        },
+        "": false,
         "eventbuttonlabel": "",
         "eventbuttonurl": "",
-        "inmixtapelabel": "",
-        "inmixtapeurl": "",
-        "": false,
-        "eventtracktitle": "",
-        "eventtrackurl": ""
+        "eventmixtapetitle": false,
+        "eventmixtapeurl": false
     },
     "featured_image": {
         "ID": 14274,
@@ -3009,12 +2524,12 @@
         "topic": [{
             "ID": 1121,
             "name": "Best of 2015",
-            "slug": "best-of-2015",
+            "slug": "best-of-hip-hop-2015",
             "description": "",
             "taxonomy": "topic",
             "parent": null,
             "count": 17,
-            "link": "http:\/\/thebackpackerz.com\/topic\/best-of-2015\/",
+            "link": "http:\/\/thebackpackerz.com\/topic\/best-of-hip-hop-2015\/",
             "meta": {
                 "links": {
                     "collection": "http:\/\/thebackpackerz.com\/wp-json\/taxonomies\/topic\/terms",
@@ -3047,15 +2562,15 @@
             }
         }
     },
-    "content": "<p class=\"p1\">Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec pharetra id, tempor a tortor. Pellentesque non dignissim neque. Ut porta viverra est, ut dignissim elit elementum ut. Nunc vel rhoncus nibh, ut tincidunt turpis. Integer ac enim pellentesque, adipiscing metus id, pharetra odio.<\/p>\n",
+    "content": "<p>Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec pharetra id, tempor a tortor. Pellentesque non dignissim neque. Ut porta viverra est, ut dignissim elit elementum ut. Nunc vel rhoncus nibh, ut tincidunt turpis. Integer ac enim pellentesque, adipiscing metus id, pharetra odio.<\/p>\n<h3>Joey Bada$$ &laquo;&nbsp;Christ Conscious&nbsp;&raquo;<\/h3>\n<p><iframe src=\"http:\/\/thebackpackerz.com\/player\/?url=https:\/\/www.youtube.com\/watch?v=yRfQGXFRr30\" width=\"100%\" height=\"50\" frameborder=\"0\"><\/iframe><\/p>\n",
     "parent": null,
     "link": "http:\/\/thebackpackerz.com\/timeline\/sortie-de-b4-da\/",
     "date": "2015-01-20T00:00:16",
-    "modified": "2015-12-06T12:26:23",
+    "modified": "2015-12-19T10:22:46",
     "format": "standard",
     "slug": "sortie-de-b4-da",
     "guid": "http:\/\/thebackpackerz.com\/?post_type=timeline&#038;p=14270",
-    "excerpt": "<p>Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec pharetra id, tempor a tortor. Pellentesque non dignissim neque. Ut porta viverra est, ut dignissim elit elementum ut. Nunc vel rhoncus nibh, ut tincidunt turpis. Integer ac enim pellentesque, adipiscing metus id, pharetra odio.<br><a class=\"moretag signature-animation\" href=\"http:\/\/thebackpackerz.com\/timeline\/sortie-de-b4-da\/\">Lire la suite<\/a>",
+    "excerpt": "<p>Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec pharetra id, tempor a tortor. Pellentesque non dignissim neque. Ut porta viverra est, ut dignissim elit elementum ut. Nunc vel rhoncus nibh, ut tincidunt turpis. Integer ac enim pellentesque, adipiscing metus id, pharetra odio. Joey Bada$$ &laquo;&nbsp;Christ Conscious&nbsp;&raquo;<br><a class=\"moretag signature-animation\" href=\"http:\/\/thebackpackerz.com\/timeline\/sortie-de-b4-da\/\">Lire la suite<\/a>",
     "menu_order": 0,
     "comment_status": "closed",
     "ping_status": "closed",
@@ -3063,7 +2578,7 @@
     "date_tz": "Etc\/GMT+1",
     "date_gmt": "2015-01-19T23:00:16",
     "modified_tz": "Etc\/GMT+1",
-    "modified_gmt": "2015-12-06T11:26:23",
+    "modified_gmt": "2015-12-19T09:22:46",
     "meta": {
         "links": {
             "self": "http:\/\/thebackpackerz.com\/wp-json\/posts\/14270",
@@ -3073,43 +2588,11 @@
             "version-history": "http:\/\/thebackpackerz.com\/wp-json\/posts\/14270\/revisions"
         },
         "eventsubtitle": "Le premier album de Joey Bada$$",
-        "eventthumb": {
-            "id": 14272,
-            "alt": "",
-            "title": "badass-thumb",
-            "caption": "",
-            "description": "",
-            "mime_type": "image\/png",
-            "url": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-            "width": 60,
-            "height": 60,
-            "sizes": {
-                "thumbnail": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "thumbnail-width": 60,
-                "thumbnail-height": 60,
-                "medium": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "medium-width": 60,
-                "medium-height": 60,
-                "large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "large-width": 60,
-                "large-height": 60,
-                "single-large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "single-large-width": 60,
-                "single-large-height": 60,
-                "small": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "small-width": 60,
-                "small-height": 60,
-                "thumbnail-large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "thumbnail-large-width": 60,
-                "thumbnail-large-height": 60
-            }
-        },
+        "": false,
         "eventbuttonlabel": "Lire la chronique",
         "eventbuttonurl": "http:\/\/thebackpackerz.com\/chronique-joey-badass-b4-da-ss\/",
-        "inmixtapelabel": "Paper Trail$",
-        "inmixtapeurl": "",
-        "eventtracktitle": "Joey Bada$$ - \"Christ Conscious\"",
-        "eventtrackurl": "https:\/\/www.youtube.com\/watch?v=yRfQGXFRr30"
+        "eventmixtapetitle": "Christ Conscious",
+        "eventmixtapeurl": ""
     },
     "featured_image": {
         "ID": 14271,
@@ -3210,12 +2693,12 @@
         "topic": [{
             "ID": 1121,
             "name": "Best of 2015",
-            "slug": "best-of-2015",
+            "slug": "best-of-hip-hop-2015",
             "description": "",
             "taxonomy": "topic",
             "parent": null,
             "count": 17,
-            "link": "http:\/\/thebackpackerz.com\/topic\/best-of-2015\/",
+            "link": "http:\/\/thebackpackerz.com\/topic\/best-of-hip-hop-2015\/",
             "meta": {
                 "links": {
                     "collection": "http:\/\/thebackpackerz.com\/wp-json\/taxonomies\/topic\/terms",
@@ -3226,7 +2709,7 @@
     }
 }, {
     "ID": 14276,
-    "title": "Le best-of du <br>Hip-Hop en 2015",
+    "title": "Le best-of du Hip-Hop en 2015",
     "status": "publish",
     "type": "timeline",
     "author": {
@@ -3252,7 +2735,7 @@
     "parent": null,
     "link": "http:\/\/thebackpackerz.com\/timeline\/le-best-of-du-hi-hop-en-2015\/",
     "date": "2015-01-01T00:00:02",
-    "modified": "2015-12-06T12:16:40",
+    "modified": "2015-12-19T10:26:10",
     "format": "standard",
     "slug": "le-best-of-du-hi-hop-en-2015",
     "guid": "http:\/\/thebackpackerz.com\/?post_type=timeline&#038;p=14276",
@@ -3264,7 +2747,7 @@
     "date_tz": "Etc\/GMT+1",
     "date_gmt": "2014-12-31T23:00:02",
     "modified_tz": "Etc\/GMT+1",
-    "modified_gmt": "2015-12-06T11:16:40",
+    "modified_gmt": "2015-12-19T09:26:10",
     "meta": {
         "links": {
             "self": "http:\/\/thebackpackerz.com\/wp-json\/posts\/14276",
@@ -3274,41 +2757,11 @@
             "version-history": "http:\/\/thebackpackerz.com\/wp-json\/posts\/14276\/revisions"
         },
         "eventsubtitle": "Pourquoi cette r\u00e9trospective Hip-Hop de l'ann\u00e9e 2015",
-        "eventthumb": {
-            "id": 14272,
-            "alt": "",
-            "title": "badass-thumb",
-            "caption": "",
-            "description": "",
-            "mime_type": "image\/png",
-            "url": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-            "width": 60,
-            "height": 60,
-            "sizes": {
-                "thumbnail": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "thumbnail-width": 60,
-                "thumbnail-height": 60,
-                "medium": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "medium-width": 60,
-                "medium-height": 60,
-                "large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "large-width": 60,
-                "large-height": 60,
-                "single-large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "single-large-width": 60,
-                "single-large-height": 60,
-                "small": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "small-width": 60,
-                "small-height": 60,
-                "thumbnail-large": "http:\/\/thebackpackerz.com\/wp-content\/uploads\/2015\/12\/badass-thumb.png",
-                "thumbnail-large-width": 60,
-                "thumbnail-large-height": 60
-            }
-        },
-        "eventbuttonlabel": "D\u00e9marrer l'exp\u00e9rience",
-        "eventbuttonurl": "Avant propos",
-        "inmixtapelabel": "",
-        "inmixtapeurl": ""
+        "": false,
+        "eventbuttonlabel": "",
+        "eventbuttonurl": "",
+        "eventmixtapetitle": "",
+        "eventmixtapeurl": "https:\/\/www.mixcloud.com\/The_BackPackerz\/rewind-la-mixtape-vol-1-bring-it-back-by-the-backpackerz\/"
     },
     "featured_image": {
         "ID": 14277,
@@ -3424,12 +2877,12 @@
         "topic": [{
             "ID": 1121,
             "name": "Best of 2015",
-            "slug": "best-of-2015",
+            "slug": "best-of-hip-hop-2015",
             "description": "",
             "taxonomy": "topic",
             "parent": null,
             "count": 17,
-            "link": "http:\/\/thebackpackerz.com\/topic\/best-of-2015\/",
+            "link": "http:\/\/thebackpackerz.com\/topic\/best-of-hip-hop-2015\/",
             "meta": {
                 "links": {
                     "collection": "http:\/\/thebackpackerz.com\/wp-json\/taxonomies\/topic\/terms",

@@ -15,9 +15,9 @@
 
 		dataPromise = datasSce.getTimeline(timelineId).then(function(datas) {
 			datas.reverse();
-			$scope.timeline = datas[0];console.log("timeline", $scope.timeline);
+			$scope.timeline = datas[0];console.log("timeline:", $scope.timeline);
 			datas.splice(0, 1);
-			$scope.events = datas;console.log("events", $scope.events);
+			$scope.events = datas;console.log("events:", $scope.events);
 			$scope.order = 'date';
 
 			$timeout(function() {

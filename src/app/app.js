@@ -2,7 +2,7 @@ var app;
 var documentWidth = document.documentElement.clientWidth;
 var documentHeight = document.documentElement.clientHeight;
 var documentScroll = window.pageYOffset;
-var timelineId = document.body.attributes['data-timelineId'].value;
+var timelineId = document.body.attributes['data-timelineId'].value;console.log("timelineId:", timelineId);
 
 (function() {
 	

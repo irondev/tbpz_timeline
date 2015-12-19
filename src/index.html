@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <!--#if expr="$QUERY_STRING = /timelineId=([^\&]+)/" -->
     <!--#set var="timelineId" value="$1" -->
+    <!--#include virtual="/special/timeline/ssi/default.ssi.html" -->
     <!--#include virtual="/special/timeline/ssi/${timelineId}.ssi.html" -->
 <!--#endif -->
 <html lang="fr-FR" ng-app="app" ng-controller="TimelineCtrl">
 	<head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title><!--#echo encoding='none' var='title' --> - Timeline - The Backpackerz</title>
+        <title ng-bind="timeline.title + ' - Timeline by The Backpackerz' | stripTags"><!--#echo encoding='none' var='title' --> - Timeline by The Backpackerz</title>
         <meta name="description" content="<!--#echo encoding='none' var='description' -->">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta property="og:type" content="article" />
@@ -67,7 +68,7 @@
 		<div class="container">
 
             <div class="intro">
-                <div class="overheading"><span class="overheading__label">{{timeline.meta.eventbuttonurl}}</span></div>
+                <div class="overheading"><span class="overheading__label">Avant propos</span></div>
                 <h2 class="heading heading--1">{{timeline.meta.eventsubtitle}}</h2>
                 <p class="paragraph">{{timeline.excerpt | stripTags}}</p>
             </div>
@@ -142,6 +143,8 @@
 							</div>
 							<a ng-href="{{event.meta.eventbuttonurl}}" target="_blank" class="button button--important"
 								ng-if="event.meta.eventbuttonlabel && event.meta.eventbuttonurl">{{event.meta.eventbuttonlabel}}</a>
+							<a ng-href="{{timeline.meta.eventmixtapeurl}}" target="_blank" class="article__footerLink"
+								ng-if="event.meta.eventmixtapetitle && timeline.meta.eventmixtapeurl">Dans la mixtape : « {{event.meta.eventmixtapetitle}} »</a>
 						</div>
 					</div>
 				</article>

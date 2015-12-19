@@ -2,12 +2,12 @@ app.service('datasSce', function($http) {
     var promise = {};
     return {
         getTimeline: function() {
-            if (!promise['albums']) {
-                promise['albums'] = $http.get(config.timelineApiUrl).then(function(res) {
+            if (!promise['events']) {
+                promise['events'] = $http.get(config.timelineApiUrl.replace("{{timelineId}}", timelineId)).then(function(res) {
                     return res.data;
                 });
             }
-            return promise['albums'];
+            return promise['events'];
         },
         getNavG: function() {
             if (!promise['nav']) {
