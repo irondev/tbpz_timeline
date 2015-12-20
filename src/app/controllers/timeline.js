@@ -10,7 +10,6 @@
 			dataPromise = {},
 			documentHeight = $document.height(),
 			documentWidth = $document.width(),
-			navHeight = 55,
 			scrollTop = $document.scrollTop();
 
 		dataPromise = datasSce.getTimeline(timelineId).then(function(datas) {
@@ -53,7 +52,7 @@
 				angular.forEach($items, function(item, index) {
 					var itemTop = angular.element(item).offset().top;
 					var prevItemTop = angular.element($items.eq(index - 1)).offset().top;
-					if (scrollTop + documentHeight - navHeight >= itemTop && (index == 0 || prevItemTop < scrollTop - navHeight)) {
+					if (scrollTop + documentHeight - (documentHeight * 0.25) >= itemTop && (index == 0 || prevItemTop < scrollTop)) {
 						$scope.activeItem = index;
 						return;
 					}
