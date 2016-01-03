@@ -21,7 +21,7 @@
     &__image {
         width:100%;
         height:inherit;
-        filter:blur(1px) grayscale(25%);
+       /* filter:blur(1px) grayscale(25%); */
         background-size:cover;
         background-attachment:fixed;
         background-repeat:no-repeat;
@@ -53,6 +53,7 @@
         border-left:none;
         border-right:none;
         text-transform:uppercase;
+        font-family:'Roboto'; /*Modifs Antoine*/
         
         &:before {
             content:'Timeline';
@@ -64,7 +65,7 @@
             left:50%;
             margin-left:-50px;
             padding:8px 15px;
-            font-size:14px !important;
+            font-size:20px !important;
             text-transform:uppercase;
             font-weight:900;
             font-style:normal;
@@ -85,7 +86,7 @@
         }
 
         @media (min-width:$bp-tablet) {
-            font-size:42px;
+            font-size:52px;
             padding:40px 0;
             &:before {
                 font-size:28px;
