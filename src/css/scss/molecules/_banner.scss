@@ -16,7 +16,8 @@
     	height:inherit;
     	background-size:cover;
         background-position:center;
-    	filter:blur(1px) opacity(50%);
+    	/* filter:blur(1px) opacity(50%); */
+        opacity: 0.6;
     }
 
     &__text {
