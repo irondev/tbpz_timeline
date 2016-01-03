@@ -20,7 +20,7 @@
     }
 
     &--important {
-        background:$color-red;
+        background:$color-main;
         color:#FFF;
         border:none;
         text-transform:initial;
@@ -28,7 +28,7 @@
         font-size:16px;
 
         &:hover {
-            background:rgba($color-red, 0.9);
+            background:rgba($color-main, 0.9);
         }
     }
 }
