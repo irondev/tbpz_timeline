@@ -165,7 +165,8 @@
                 }
 
                 a {
-                    color:$color-dark;
+                    color:$color-red;
+                    font-weight:bold;
                     &:hover {
                         text-decoration:none;
                     }
