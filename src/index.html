@@ -70,7 +70,7 @@
             <div class="intro">
                 <div class="overheading"><span class="overheading__label">Avant propos</span></div>
                 <h2 class="heading heading--1">{{timeline.meta.eventsubtitle}}</h2>
-                <p class="paragraph">{{timeline.excerpt | stripTags}}</p>
+                <p class="paragraph" ng-bind-html="timeline.content"></p>
             </div>
 
 			<nav class="nav js-nav"
