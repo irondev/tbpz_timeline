@@ -11,12 +11,17 @@
     .heading {
         width:96%;
         margin-left:auto;   
+        margin-bottom: 20px;
     }
 
     .paragraph {
         width:96%;
         margin:auto;
         padding:0;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: inherit;
+        color: #353535;
 		body.in-app & {
 			width:auto;
 			text-align:left;
