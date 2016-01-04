@@ -76,12 +76,12 @@
             box-shadow:0px 0px 10px $color-dark;
         }
 
-        @media (min-width:$bp-phablet) {
-            font-size:32px;
+        @media (min-width:$bp-min) {
+            font-size:38px;
             padding:30px 0;
             &:before {
                 top:10px;
-                font-size:16px;
+                font-size:16px !important;; 
             }
         }
 
