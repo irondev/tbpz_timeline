@@ -16,4 +16,14 @@
     	margin:0;
     }
 
+    &--altlink {
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    --altlink:hover {
+        color: $color-main;
+    }
+
+
 }
