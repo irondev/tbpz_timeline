@@ -4,3 +4,8 @@ bower_components
 .sass-cache
 npm-debug.log
 dist/*
+src/img/.DS_Store
+
+src/.DS_Store
+
+**/.DS_Store
